@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="auth-body">
+    <div class="container">
+      <h2>Register</h2>
+      <form id="register" action="biography.html" method="get">
+        <input type="text" placeholder="Username" required />
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+        <div class="file-input">
+          <label for="profile-photo">Profile Photo:</label>
+          <input
+            type="file"
+            id="profile-photo"
+            name="profile-photo"
+            accept="image/*"
+          />
+        </div>
+        <div class="checkbox-container">
+          <input type="checkbox" id="terms" required />
+          <label for="terms">I agree to the terms and conditions</label>
+        </div>
+        <button type="submit">Register</button>
+      </form>
+      <p>Already have an account? <a href="login.html">Login here</a></p>
+      <p>Or register with:</p>
+      <div class="social-icons">
+        <a href="#" class="social-icon">
+          <img
+            src="https://img.icons8.com/color/48/000000/facebook.png"
+            alt="Facebook"
+            width="30"
+            height="30"
+          />
+        </a>
+        <a href="#" class="social-icon">
+          <img
+            src="https://img.icons8.com/color/48/000000/twitter.png"
+            alt="Twitter"
+            width="30"
+            height="30"
+          />
+        </a>
+        <a href="#" class="social-icon">
+          <img src="google.webp" alt="Google" width="30" height="30" />
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
